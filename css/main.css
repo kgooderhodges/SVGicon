@@ -5,39 +5,82 @@
 	display: none;
 }
 
-h1 {
-	color: red;
+h1, h2 {
 	display: none;
 }
 
 div,p,body,header,footer,section { 
 	margin: 0; 
 	padding: 0; 
-}	
+}
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    color: #000;
+	background: -webkit-linear-gradient(#fab10c, #e54ca0);
+	background: -o-linear-gradient(#fab10c, #e54ca0);
+	background: linear-gradient(#fab10c, #e54ca0);
+	}	
 
 #siteContainer {
 	width: 1000px;
 	margin: 0 auto ;
 	padding: 0px 15px 0px 15px;
 	display: flex;
-	justify-content: center;
+	text-align: center;
 } 
 
 #mainHeader {
-	font-size: 14px;
+	font-size: 20px;
+	margin: 15px 0px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: flex-start;
+	border-bottom: solid 5px #cc11be;
+}
+
+#logo {
+	width: 500px;
+	padding: 10px;
+}
+
+.SVGcontainer {
+	width: 980px;
+	margin: 0 auto;
+	padding: 5px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	text-align: center;
+	background-color: #ffffff;
+	 opacity: 0.8;
+}
+
+.SVGimg {
+	width: 200px;
+	margin: 10px
+}
+
+#textBox {
+	width: 600px
+	margin: 0 auto;
+	padding: 10px 20px;
+	flex-direction: row;
+	text-align: left;
+	justify-content: flex-start;
+}
+
+#contentArea {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    flex-direction: row;
+}
+
+#productImages {
 	margin-top: 40px;
 	padding-bottom: 40px;
 	display: flex;
 	flex-direction: row;
-  	justify-content: flex-start;
-	border-bottom: solid 5px #E2C650;
-}
-
-#logo {
-	width: 100px;
-	padding: 10px;
-}
-
-.container {
-	flex-wrap: wrap;
+  	justify-content: space-between;
 }

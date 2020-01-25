@@ -23,7 +23,7 @@ body {
 	background: linear-gradient(#fab10c, #e54ca0);
 	}	
 
-#siteContainer {
+.siteContainer {
 	width: 1000px;
 	margin: 0 auto ;
 	padding: 0px 15px 0px 15px;
@@ -58,7 +58,10 @@ body {
 
 .SVGimg {
 	width: 200px;
-	margin: 10px
+	margin: 10px;
+	padding: 5px;
+	text-align: center;
+	display: inline-block;
 }
 
 #textBox {
@@ -84,3 +87,15 @@ body {
 	flex-direction: row;
   	justify-content: space-between;
 }
+
+/*Trumpet Start*/
+.selected #body {
+ 	fill: red;
+}
+
+#trumpet:active #Body {fill: red;}
+#trumpet:hover #keyTub1 {fill: green; }
+#trumpet:hover #keyTub2 {fill: blue;}
+#trumpet:hover #keyTub3 {fill: purple;}
+/*Trumpet End*/
+

@@ -1,3 +1,43 @@
 @charset "UTF-8"
 /*CSS Document*/
 
+.hidden {
+	display: none;
+}
+
+h1 {
+	color: red;
+	display: none;
+}
+
+div,p,body,header,footer,section { 
+	margin: 0; 
+	padding: 0; 
+}	
+
+#siteContainer {
+	width: 1000px;
+	margin: 0 auto ;
+	padding: 0px 15px 0px 15px;
+	display: flex;
+	justify-content: center;
+} 
+
+#mainHeader {
+	font-size: 14px;
+	margin-top: 40px;
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: flex-start;
+	border-bottom: solid 5px #E2C650;
+}
+
+#logo {
+	width: 100px;
+	padding: 10px;
+}
+
+.container {
+	flex-wrap: wrap;
+}

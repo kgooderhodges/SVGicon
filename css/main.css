@@ -9,7 +9,7 @@ h1, h2 {
 	display: none;
 }
 
-div,p,body,header,footer,section { 
+div,p,body,header,footer { 
 	margin: 0; 
 	padding: 0; 
 }
@@ -73,29 +73,85 @@ body {
 	justify-content: flex-start;
 }
 
-#contentArea {
-    margin-top: 10px;
-    padding-bottom: 10px;
-    display: inline-block;
-    flex-direction: row;
+.guitarSelected .guitarcls-1 {
+ 	fill: orange;
 }
 
-#productImages {
-	margin-top: 40px;
-	padding-bottom: 40px;
-	display: flex;
-	flex-direction: row;
-  	justify-content: space-between;
+.guitarSelected .guitarcls-3 {
+	stroke: orange;
 }
 
-/*Trumpet Start*/
-.selected #body {
- 	fill: red;
+#guitar:hover .guitarcls-1 {fill: red; }
+#guitar:hover .guitarcls-3 {stroke: red; }
+
+.cassetteSelected .cassettecls-1{
+ 	fill: orange;
 }
 
-#trumpet:active #Body {fill: red;}
-#trumpet:hover #keyTub1 {fill: green; }
+.cassetteSelected .cassettecls-2 {
+	stroke: orange;
+}
+
+#cassette:hover .cassettecls-1 {fill: #39ff14;}
+#cassette:hover .cassettecls-2  {stroke: #39ff14;}
+
+.soundpadSelected path {
+ 	fill: orange;
+}
+
+#soundpad:hover .soundpadcls-1 {fill: blue; }
+
+.saxSelected path {
+ 	fill: orange;
+}
+
+#sax:hover path {fill: red; }
+
+
+.violinSelected path {
+ 	fill: orange;
+}
+
+#violin:hover path {fill: #39ff14 ; }
+
+.trumpetSelected .trumpetcls-1 {
+	fill:orange;
+}
+
+.trumpetSelected .trumpetcls-2 {
+	fill:orange;
+}
+
+#trumpet:hover #Body {fill: #666;}
+#trumpet:hover #keyTub1 {fill: #39ff14; }
 #trumpet:hover #keyTub2 {fill: blue;}
-#trumpet:hover #keyTub3 {fill: purple;}
-/*Trumpet End*/
+#trumpet:hover #keyTub3 {fill: red;}
+
+#mic:hover .miccls-1 { fill: red; }
+#mic:active .miccls-1 { fill: orange; }
+
+
+.drumSelected .drumscls-1 {
+	fill: orange;
+
+}
+
+.drumSelected .drumscls-2 {
+	stroke: orange;
+}
+
+#drums:hover .drumscls-1 {fill: #39ff14;}
+#drums:hover .drumscls-2 {stroke: #39ff14;}
+
+.bartSelected path {
+ 	fill: orange;
+}
+
+#bart:hover path { fill: blue;}
+
+.keytarSelected .keytarcls-1 {
+	fill: orange;
+}
+
+#keytar:hover .keytarcls-1 { fill: red;}
 
